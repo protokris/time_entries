@@ -1,0 +1,1 @@
+json.partial! "week_summaries/week_summary", week_summary: @week_summary

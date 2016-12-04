@@ -1,0 +1,133 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+html body {
+  padding-top: 60px;
+}
+
+.half {
+  width: 50%;
+}
+
+.hover:hover {
+    cursor: pointer;
+}
+
+.graph-panel {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+  margin: 20px 0px;
+  padding: 20px 0px;
+}
+
+.dash-panel {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+  margin: 20px 0px;
+
+  h3 {
+    margin-top: 4px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+}
+
+.time-table {
+  thead tr td {
+    font-weight: bold;
+  }
+}
+
+.add-btn-float {
+  float: right;
+  margin-top: -70px;
+  margin-right: -20px;
+}
+
+.done-check {
+  color: green;
+  margin-right: 4px;
+
+}
+
+.header-img {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.btn-go-left {
+  float: left;
+}
+.btn-go-right {
+  float: right;
+}
+
+.docs {
+  h1 {
+    font-size: 80px;
+    font-weight: bold;
+
+  }
+   h2 {
+     font-size: 45px;
+     font-weight: bold;
+     text-transform: uppercase;
+   }
+   h3 {
+     font-family: monospace, Consolas, 'Luida Console', 'Courier', 'Courier New';
+     font-size: 2em;
+     margin-top: 3em;
+   }
+   h3 + p {
+     color: #aaa;
+   }
+   h4 {
+     margin-top: 2em;
+     margin-left: -1px;
+   }
+   h4 + p {
+     color: #4a4;
+   }
+   p {
+     font-size: 1.25em;
+   }
+   hr {
+     margin-top: 2em;
+     margin-bottom: 2em;
+   }
+   .table-parameters {
+      width: 100%;
+      border-collapse: inherit;
+      border-spacing: 10px;
+
+      thead {
+        font-weight: bold;
+      }
+   }
+   td.table-parameters-name {
+     font-style: italic;
+   }
+}
+
+.nav span.glyphicon {
+  position: relative;
+  top: 3px;
+  margin: 0px 4px;
+  color: #ddd;
+}
+
+.list-row span.glyphicon {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #337ab7;
+}
+
+.users-filter {
+  margin-right: 20px;
+  margin-top: 30px;
+}

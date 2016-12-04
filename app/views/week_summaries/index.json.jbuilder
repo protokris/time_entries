@@ -1,0 +1,1 @@
+json.array! @week_summaries, partial: 'week_summaries/week_summary', as: :week_summary

@@ -1,0 +1,24 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+one:
+  date: 2016-11-22
+  time: 55
+  distance: 100
+  user: admin
+
+two:
+  date: 2016-11-23
+  time: 66
+  distance: 220
+  user: admin
+
+three:
+  date: 2016-11-30
+  time: 99
+  distance: 1
+  user: user
+
+four:
+  date: 2016-01-01
+  time: 88
+  distance: 32
+  user: anon

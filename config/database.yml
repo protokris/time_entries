@@ -1,0 +1,24 @@
+default: &default
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: time
+  host: localhost
+  username: time
+  password: toptaltime
+
+test:
+  <<: *default
+  database: time_test
+  host: localhost
+  username: time
+  password: toptaltime
+
+production:
+  <<: *default
+  database: time
+  username: time
+  password: toptaltime
