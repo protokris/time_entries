@@ -2,6 +2,8 @@
 
 This application is installed on HEROKU. 
 
+[https://time-entries.herokuapp.com/](https://time-entries.herokuapp.com/)
+
 # Problem
 
 Write an application that tracks jogging times of users
@@ -87,3 +89,17 @@ Finished in 0.18200 seconds
 26 examples, 0 failures
 
 ```
+
+# Deploys
+
+You will need heroku credentials and can then run
+
+`git push heroku master`
+
+To reset the database use:
+
+`heroku pg:reset postgresql-octagonal-17191`
+
+`heroku run rake db:migrate`
+
+`heroku run rake db:seed`
